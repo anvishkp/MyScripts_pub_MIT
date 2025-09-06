@@ -1,7 +1,7 @@
 oh-my-posh init pwsh --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/dracula.omp.json' | Invoke-Expression
 Write-Host "Tip: Currently loaded dracula theme !!" -ForegroundColor Cyan
-Write-Host "Tip: Use the command 'anvitheme' to select your oh-my-posh theme." -ForegroundColor Cyan
-function anvitheme {
+Write-Host "Tip: Use the command 'mythemes' to select your oh-my-posh theme." -ForegroundColor Cyan
+function mythemes {
     $themes = @(
         @{Name='tokyo'; Url='https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/tokyo.omp.json'}
         @{Name='atomicBit'; Url='https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/atomicBit.omp.json'}
